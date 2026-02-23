@@ -26,7 +26,7 @@ export default function App() {
   const [viewMode, setViewMode] = useState("grid");
   const [notification, setNotification] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [priceRange, setPriceRange] = useState([0, 22000000]);
+  const [priceRange, setPriceRange] = useState([0, 4000]);
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedTags, setSelectedTags] = useState([]);
   const [heroIdx, setHeroIdx] = useState(0);
